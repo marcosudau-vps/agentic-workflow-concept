@@ -1,0 +1,2 @@
+Hiermit genehmige ich ausdrücklich die Planbaseline `{{PLAN_IDENTITY}}` für das Vorhaben `{{PROJECT}}` nach unabhängigem Planreview `{{PLAN_REVIEW_REPORT}}` und vollständiger Findingsdisposition `{{DISPOSITION_INDEX}}`.
+Bitte sichere den tatsächlichen Originalprompt und die qualifizierte Planbaseline; behandle sie danach als `PLAN_APPROVED`. Diese Freigabe erteilt **keine** Merge-, Release-, Deployment- oder Publikationsrechte; Kandidaten-Gitrechte gelten nur bei gesonderter Arbeitsautorisierung.

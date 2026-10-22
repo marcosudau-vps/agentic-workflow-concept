@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agentic Workflow – Feature Status",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "featureId",
+    "repository",
+    "featureBranch",
+    "releaseBranch",
+    "workflowPhase",
+    "openFindingIds",
+    "nextAction"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "featureId": {
+      "type": "string"
+    },
+    "repository": {
+      "type": "string"
+    },
+    "featureBranch": {
+      "type": "string"
+    },
+    "releaseBranch": {
+      "type": "string"
+    },
+    "workflowPhase": {
+      "enum": [
+        "FEATURE_IN_PROGRESS",
+        "FEATURE_REVIEW_READY",
+        "FEATURE_REVIEW_IN_PROGRESS",
+        "FEATURE_CHANGES_REQUIRED",
+        "FEATURE_WAITING_FOR_APPROVAL",
+        "FEATURE_READY_FOR_CANONICALIZATION",
+        "FEATURE_CANONICALIZED",
+        "FEATURE_BLOCKED"
+      ]
+    },
+    "canonicalParent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "featureHead": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewedCommit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewReport": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "openFindingIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "humanApproval": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "releaseParent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "aggregateCommit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nextAction": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

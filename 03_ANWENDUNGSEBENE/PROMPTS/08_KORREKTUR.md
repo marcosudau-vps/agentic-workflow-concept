@@ -1,0 +1,3 @@
+Bearbeite für `{{AP_ID}}` den aktuellen gültigen unabhängigen Befundbericht `{{FINDING_REPORT}}` auf dem ausgewählten Paketbranch `{{CANDIDATE_BRANCH}}` im Repository `{{REPO}}`.
+Lies `03_ANWENDUNGSEBENE/SKILLS/implementer/SKILL.md`; übernimm den Reviewstand per Fast-forward, prüfe jedes Finding und behebe es mit gezielten Repros und nötiger Gesamtregression.
+Sollte ein Finding fachlich unberechtigt oder im Gesamtkonzept unverhältnismäßig sein, dokumentiere den begründeten Gegenbefund für unabhängige Wiederprüfung; keine stille Abschwächung. Gleichen kumulativen PR mit neuem `REVIEW_READY`-Kandidaten übergeben.

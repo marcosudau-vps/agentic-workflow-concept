@@ -1,0 +1,9 @@
+# Planreview – unabhängiger Gesamtbericht
+
+**reviewedPlanSha/Tree:** bei echtem Review ermitteln  
+**Findings-Dispositionsindex:** …  
+**Selbst ausgeführte Prüfungen und extern validierte Nachweise:** …  
+**Planinvarianten / Architektur / Verträge / Requirements / Tests / APs:** …  
+**Verdict:** NOT_RUN
+
+`PLAN_ROOT_PASS` nur bei gültiger Gesamtevidenz; danach gesonderte menschliche Planfreigabe. Kein Eigenreview der eigenen Planung.

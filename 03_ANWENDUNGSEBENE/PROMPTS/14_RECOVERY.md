@@ -1,0 +1,2 @@
+Die bisherige ausgewählte Session/Schreibhoheit für `{{AP_ID}}` ist nach meiner Entscheidung beendet beziehungsweise ausdrücklich übergeben. Ich beauftrage die geregelte Wiederaufnahme auf `{{CANDIDATE_BRANCH}}` von der nachgewiesenen erreichbaren Ausgangsbasis `{{RECOVERY_SHA}}`.
+Lies `03_ANWENDUNGSEBENE/SKILLS/GEMEINSAM/references/AUSNAHMEN.md`. Sichere alte WIP/Owner/Findings und meinen Originalauftrag. Nur zuvor belegte Kandidatenrechte bleiben gültig. Kein Override fremder nicht erreichbarer Daten und kein kanonischer Merge.

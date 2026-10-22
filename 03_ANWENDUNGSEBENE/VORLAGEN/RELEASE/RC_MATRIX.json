@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "release": "0.1.0",
+  "releaseHead": null,
+  "sourceTree": null,
+  "qualificationStatus": "NOT_RUN",
+  "platformMatrix": [
+    {
+      "platform": "windows-x64",
+      "edition": "default",
+      "artifact": "not-built",
+      "sha256": null,
+      "buildRun": null,
+      "installSmoke": "NOT_RUN",
+      "tests": "NOT_RUN",
+      "runtimeIdentity": null
+    },
+    {
+      "platform": "linux-x64",
+      "edition": "default",
+      "artifact": "not-built",
+      "sha256": null,
+      "buildRun": null,
+      "installSmoke": "NOT_RUN",
+      "tests": "NOT_RUN",
+      "runtimeIdentity": null
+    }
+  ],
+  "reviewReport": null,
+  "approvalSource": null,
+  "publicationStatus": "NOT_PUBLISHED"
+}

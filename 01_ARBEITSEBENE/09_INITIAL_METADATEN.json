@@ -1,0 +1,15 @@
+{
+  "kind": "initial-concept-baseline",
+  "repository": "agentic-workflow-concept",
+  "suggestedWorkingBranch": "work/gesamtkonzept-v1",
+  "mainIsReservedForApprovedCompleteBaselines": true,
+  "frameworkIsReviewApproved": false,
+  "notes": "Compiled source model and application artifacts. No Git operations conducted.",
+  "counts": {
+    "conceptFiles": 18,
+    "roleSkills": 10,
+    "promptTemplates": 16,
+    "sources": 40,
+    "topics": 19
+  }
+}

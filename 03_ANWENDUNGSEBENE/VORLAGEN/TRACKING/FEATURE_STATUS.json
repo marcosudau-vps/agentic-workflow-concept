@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "featureId": "FEAT-001",
+  "repository": "OWNER/REPOSITORY",
+  "featureBranch": "feature/FEAT-001",
+  "releaseBranch": "release/0.1.0",
+  "workflowPhase": "FEATURE_IN_PROGRESS",
+  "canonicalParent": null,
+  "featureHead": null,
+  "reviewedCommit": null,
+  "reviewReport": null,
+  "openFindingIds": [],
+  "humanApproval": null,
+  "releaseParent": null,
+  "aggregateCommit": null,
+  "nextAction": "Alle geplanten Paketaggregate und die Integrationsqualifikation abschließen."
+}

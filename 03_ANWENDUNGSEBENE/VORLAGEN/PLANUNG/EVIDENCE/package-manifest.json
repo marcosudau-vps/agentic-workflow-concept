@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "project": "PROJECT-ID",
+  "canonicalBranch": "feature/FEATURE-ID",
+  "packages": [
+    {
+      "id": "AP-001",
+      "feature": "FEAT-001",
+      "dependsOn": [],
+      "status": "PLANNED",
+      "selectedCandidate": null,
+      "aggregateCommit": null,
+      "reviewReport": null,
+      "approvalSource": null
+    }
+  ]
+}

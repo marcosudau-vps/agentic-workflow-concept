@@ -1,0 +1,2 @@
+Hiermit beauftrage ich ausdrücklich die Veröffentlichung der bereits nachgewiesen qualifizierten Releaseversion `{{VERSION}}` am freigegebenen Main-/Tagstand `{{MAIN_SHA}}` auf den konkret bezeichneten Zielen `{{PUBLICATION_TARGETS}}`, mit den Artefaktdigests `{{ARTIFACT_DIGESTS}}`.
+Prüfe vor jeder mutativen Aktion Konto/Ziel, Herkunft, Berechtigung, Security-/Secretgrenzen und Rückfall. Veröffentliche keine abweichenden Artefakte. Dokumentiere für jedes Ziel reale Transport- und Nachpublikationsnachweise. Andere Ziele oder Deployments sind nicht beauftragt.

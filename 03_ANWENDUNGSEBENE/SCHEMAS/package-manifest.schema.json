@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agentic Workflow – Package Manifest",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "project",
+    "canonicalBranch",
+    "packages"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "project": {
+      "type": "string"
+    },
+    "canonicalBranch": {
+      "type": "string"
+    },
+    "packages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "feature",
+          "dependsOn",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "feature": {
+            "type": "string"
+          },
+          "dependsOn": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "type": "string"
+          },
+          "selectedCandidate": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "aggregateCommit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "reviewReport": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "approvalSource": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agentic Workflow – Execution Status",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "repository": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonicalBranch": {
+      "type": "string",
+      "minLength": 1
+    },
+    "workflowPhase": {
+      "enum": [
+        "READY_FOR_IMPLEMENTATION",
+        "IMPLEMENTATION_IN_PROGRESS",
+        "REVIEW_READY",
+        "REVIEW_IN_PROGRESS",
+        "CHANGES_REQUIRED",
+        "CORRECTION_IN_PROGRESS",
+        "WAITING_FOR_APPROVAL",
+        "READY_FOR_CANONICALIZATION",
+        "CANONICALIZED",
+        "SERVER_FIX_REQUIRED",
+        "BLOCKED",
+        "SUPERSEDED",
+        "COMPLETED"
+      ]
+    },
+    "packageStatus": {
+      "type": "string",
+      "minLength": 1
+    },
+    "activePackage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "canonicalParent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "candidateBranch": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "pullRequest": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "selectedCandidate": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "candidateSelection": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "lastRun": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "reviewedCommit": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reviewReport": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "openFindingIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "humanApproval": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "writeOwner": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "workAuthorization": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "blockingReason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nextAction": {
+      "type": "string",
+      "minLength": 1
+    },
+    "planBaseline": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "relatedFix": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "recovery": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "nextPackage": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "repository",
+    "canonicalBranch",
+    "workflowPhase",
+    "packageStatus",
+    "activePackage",
+    "canonicalParent",
+    "openFindingIds",
+    "humanApproval",
+    "writeOwner",
+    "nextAction"
+  ],
+  "additionalProperties": false
+}

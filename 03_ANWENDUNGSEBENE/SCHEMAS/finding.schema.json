@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agentic Workflow – Finding",
+  "type": "object",
+  "required": [
+    "findingId",
+    "severity",
+    "status",
+    "invariant",
+    "scenario",
+    "expected",
+    "actualOrReasoned",
+    "affectedIds",
+    "owner",
+    "evidence"
+  ],
+  "properties": {
+    "findingId": {
+      "type": "string"
+    },
+    "severity": {
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "status": {
+      "enum": [
+        "OPEN",
+        "CLOSED",
+        "DISPUTED",
+        "SUPERSEDED"
+      ]
+    },
+    "invariant": {
+      "type": "string"
+    },
+    "scenario": {
+      "type": "string"
+    },
+    "expected": {
+      "type": "string"
+    },
+    "actualOrReasoned": {
+      "type": "string"
+    },
+    "affectedIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "owner": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

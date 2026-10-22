@@ -1,0 +1,2 @@
+Hiermit erteile ich die ausdrückliche Freigabe, die qualifizierte Release-Gesamtfassung `{{VERSION}}` am Kandidaten `{{RELEASE_SHA}}` nach Release-Gate `{{RELEASE_REPORT}}` einmalig kontrolliert nach `main` zu übernehmen.
+Sichere Originalfreigabe, prüfe aktuelle Base/Head, qualifizierten Baum und alle erforderlichen CI-Checks. Dokumentiere tatsächlichen neuen Main-Aggregat-SHA/Tree/Parent. **Diese Freigabe umfasst keine öffentliche Veröffentlichung, Registry-/PyPI-Uploads oder Deployments.**

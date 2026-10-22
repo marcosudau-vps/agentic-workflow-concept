@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agentic Workflow – Requirements",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "project",
+    "requirements"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "project": {
+      "type": "string"
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "binding",
+          "description",
+          "ownerPackage",
+          "contractRefs",
+          "verification",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Z][A-Z0-9-]+$"
+          },
+          "title": {
+            "type": "string"
+          },
+          "binding": {
+            "enum": [
+              "V1_CONTRACT",
+              "V2_OUTCOME",
+              "V3_SUGGESTION",
+              "V4_START_VALUE"
+            ]
+          },
+          "description": {
+            "type": "string"
+          },
+          "ownerPackage": {
+            "type": "string"
+          },
+          "contractRefs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "verification": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

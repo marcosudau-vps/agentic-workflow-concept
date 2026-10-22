@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agentic Workflow – Planning Status",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "repository": {
+      "type": "string"
+    },
+    "workflowPhase": {
+      "enum": [
+        "PLANNING_IN_PROGRESS",
+        "PLAN_HARDENING",
+        "PLAN_CHANGES_REQUIRED",
+        "PLAN_REVIEW_READY",
+        "PLAN_ROOT_PASS",
+        "PLAN_WAITING_FOR_APPROVAL",
+        "PLAN_APPROVED",
+        "BLOCKED"
+      ]
+    },
+    "planRevision": {
+      "type": "string"
+    },
+    "planBaseline": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "selectedPlanCandidate": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "lastRun": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "hardeningReports": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "openFindingIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "plannerDisposition": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "reviewReport": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "humanApproval": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "writeOwner": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "nextAction": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "repository",
+    "workflowPhase",
+    "openFindingIds",
+    "humanApproval",
+    "nextAction"
+  ],
+  "additionalProperties": false
+}

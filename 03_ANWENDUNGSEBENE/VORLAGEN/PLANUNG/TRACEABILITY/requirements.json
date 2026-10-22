@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "project": "PROJECT-ID",
+  "requirements": [
+    {
+      "id": "REQ-001",
+      "title": "Beispiel: Ergebnis ohne Doppelwirkung",
+      "binding": "V2_OUTCOME",
+      "description": "Ein erfolgreich abgeschlossenes Ergebnis erzeugt keine doppelte Nebenwirkung.",
+      "ownerPackage": "AP-001",
+      "contractRefs": [
+        "K-001"
+      ],
+      "verification": [
+        "TEST-001"
+      ],
+      "status": "PLANNED"
+    }
+  ]
+}

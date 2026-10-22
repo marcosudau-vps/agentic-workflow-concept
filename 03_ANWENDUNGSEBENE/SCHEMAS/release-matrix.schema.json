@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Agentic Workflow – Release Candidate Matrix",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "release",
+    "qualificationStatus",
+    "platformMatrix",
+    "publicationStatus"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "release": {
+      "type": "string"
+    },
+    "releaseHead": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sourceTree": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "qualificationStatus": {
+      "enum": [
+        "NOT_RUN",
+        "BLOCKED",
+        "CHANGES_REQUIRED",
+        "RELEASE_QUALIFIED"
+      ]
+    },
+    "platformMatrix": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "platform",
+          "edition",
+          "artifact",
+          "installSmoke",
+          "tests"
+        ],
+        "properties": {
+          "platform": {
+            "type": "string"
+          },
+          "edition": {
+            "type": "string"
+          },
+          "artifact": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "buildRun": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "installSmoke": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "NOT_RUN",
+              "NOT_PROVEN",
+              "SKIPPED_EXPECTED",
+              "PASS_SCOPED"
+            ]
+          },
+          "tests": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "NOT_RUN",
+              "NOT_PROVEN",
+              "SKIPPED_EXPECTED",
+              "PASS_SCOPED"
+            ]
+          },
+          "runtimeIdentity": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "reviewReport": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approvalSource": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publicationStatus": {
+      "enum": [
+        "NOT_PUBLISHED",
+        "PARTIAL",
+        "PUBLISHED"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

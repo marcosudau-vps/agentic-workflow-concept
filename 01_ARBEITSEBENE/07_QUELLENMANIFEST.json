@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "description": "Unveränderliche lokale Rohquellen des Grundstands. Nicht automatisch identisch mit Live.",
+  "files": [
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/GOVERNANCE/AGENTEN_REGELWERK.md",
+      "sha256": "764e4db21dc17454bcf7c4bc4e2adc686c08413d67c5b9916cc86d92f267507f",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/GOVERNANCE/AUFTRAGGEBER.md",
+      "sha256": "73a037cb8e99c0c05414eb2a8c7a8fbf268e40404f7a8dd930012904fae98d16",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/GOVERNANCE/AUSFUEHRUNGS_WORKFLOW.md",
+      "sha256": "3b119f098cd6850ed06fe47719ad5785806cd456a34cacc0c38f3fe614bf0ca3",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/GOVERNANCE/BRANCH_UND_PLANPFLEGE.md",
+      "sha256": "a056a750d0110269798896b3b557fc4917eaf88f68a13d471644013befd04038",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/PLANUNG/ENTSCHEIDUNGEN_UND_RISIKEN.md",
+      "sha256": "4c3b7d49ac8ef15974c70fbbdda2a869cc87d53a12486ab7a6f14a8a70766174",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/PLANUNG/IMPLEMENTIERUNGSPLAN.md",
+      "sha256": "7b289b07ea9a54d28639980337f21df659dcebc4ea2b9a0438aed0a5a3036cfd",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/PLANUNG/UMFANG_UND_AGENTENLAEUFE.md",
+      "sha256": "7b42d0c7cba70fb6b28ad0331bca19e95b17291d8266e97b62473203d239b2b4",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/PLANUNG/ZIELBILD.md",
+      "sha256": "648ebd2c8f9b0777282fd5b57f138400990a15fa0c7ef6037b3b4b34d76acd62",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/QUALIFIKATION/INKREMENTELLE_CHECKPOINTS.md",
+      "sha256": "6a6ea0d7669701f1a95349624eba706ef1788ff674d1389da6b25cb0632808e4",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/REFERENZ/QUALIFIKATION/TEST_UND_ABNAHMEPLAN.md",
+      "sha256": "70972f6db173f4def22191003d51ffe1120544dac728c49fe14b9927471b1090",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/assets/PAKETAKTE/00_PAKET.md",
+      "sha256": "5c06daf90ea441316f07b2d145ad956a7338a0b9b3ee2d99f97ede7cf0fdda9c",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/assets/PAKETAKTE/01_ENTSCHEIDUNGEN.md",
+      "sha256": "6fa8a103150437911e5b739a5b0484851bd34528b830201ca282e8971e326999",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/assets/README.md",
+      "sha256": "3a2490373e0cfbc0e1bdbba0f32c66b4f52612e01b751d276887ab21415ef047",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/assets/RUN/00_PROMPT_ORIGINAL.md",
+      "sha256": "5e62bdfa96900271821817425200818fbdd24674bc8e89eb96da49ceab479fa3",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/assets/RUN/01_REPORT.md",
+      "sha256": "65817d435fa02bf12a81fd9f621d5de83acba6fbbad7594f8b59b3bd9d982e66",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/assets/RUN/EVIDENCE/INDEX.md",
+      "sha256": "cf27394e3328bd52321b2361987f6b55efa1907f1fab44496bec52c578c36ce7",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/references/PAKETABLAGE_UND_VORLAGEN.md",
+      "sha256": "a61a1da5e2b730f323fc55ac7f273b7947cf0de4b6568bf5d7d49426b9cf2e5c",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/references/PLANUNGSSPIELRAUM.md",
+      "sha256": "3f746f9fd121477f261734bb79ba57bf8124ca629a740f2803f3f9998de189c2",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/references/PROMPT_BAUSTEINE.md",
+      "sha256": "6d1305831d224cd89ec15290ee54749be46ce6fe7430dbc09ecd210fc5fcb753",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/references/PR_UND_REVIEW_UEBERGABE.md",
+      "sha256": "ed2f0adadbf6a0489ff5dcf4ae01799d95d6930f62024aea4e28fb19b4bd61eb",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/references/START_UND_GRENZEN.md",
+      "sha256": "0d2a8c10f4d72254ce38ab39229e100ae08c6cdf69df834b0048e31f7ff95759",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/GEMEINSAM/references/ZUSTAENDE_UND_NAECHSTER_SCHRITT.md",
+      "sha256": "1a077c6964b47d9d311ce626a296a48c8027b716a78d95677e14fc930a7112fa",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-abnehmen/SKILL.md",
+      "sha256": "5cf50548fd5f432f0019a96b9b71534e4991a0756c5bbb625fb2625123ea4428",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-abnehmen/agents/openai.yaml",
+      "sha256": "3211afa7ac0d4dac042367f98225fadd0de65b10c23edab461ea92c5c793297a",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-abnehmen/assets/PROMPT_ABNAHME.md",
+      "sha256": "924bd32a956341308112e5688b83ebcab1e4a4d3b7f29de4509689a9e8bbd4eb",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-abnehmen/assets/PROMPT_UEBERNAHME.md",
+      "sha256": "e62290ee589a8ddc3fb30863c61351d053b2b63feaf64ebb218bee6f9ffd643e",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-abnehmen/references/ABNAHMECHECKLISTE.md",
+      "sha256": "77d9e7f86a7b475784a010ba9f883a9b632a79821beaa03feef392ed47e166a4",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-abnehmen/references/UEBERNAHME.md",
+      "sha256": "14960e7c3e330b97f4a8dfd721a1ed1ca26d1daf8020dbb205bedfe08a142870",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-naechster-schritt/SKILL.md",
+      "sha256": "30fe8377b3e26a365e8fd8d23a46358cda21c855d49b831db871e19a9adfbd1d",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-naechster-schritt/agents/openai.yaml",
+      "sha256": "d19c5a20f862d45a51e9a048f4d48ff04936609ad2c8f9776790398d7e38ee13",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-naechster-schritt/assets/PROMPT_ERSTER_UMSETZUNGSAUFTRAG.md",
+      "sha256": "16818a46abe79e3b5304c93f0514ee9e0f863b2fe4e00de4d31f022ac9629b9e",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-naechster-schritt/assets/PROMPT_NAECHSTER_SCHRITT.md",
+      "sha256": "c7c7953f013a71c49a5a9d54e9a1069d23cd847f8c88eb2412fc178ad5a73a21",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-umsetzen/SKILL.md",
+      "sha256": "eab499425a0898a51860e2925fec3bf0c244fbae2f9d2858e970eb16f46cb01f",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-umsetzen/agents/openai.yaml",
+      "sha256": "d51f31782df17aad9183f5e16ed3d973b2d8524a37b9ecce182343ab13b4caa2",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-umsetzen/assets/PROMPT_KORREKTUR.md",
+      "sha256": "15b01fc3096c18446761cb75c62a723c95ef6bc6e8f8535060d4e05dd82c5d0c",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-umsetzen/assets/PROMPT_UMSETZUNG.md",
+      "sha256": "8b66a4b871b0d53493b338d057c2317d21494d62144ceac65cd616d73513d165",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-umsetzen/references/ABGABECHECKLISTE.md",
+      "sha256": "8229d97e4f21385688449df674c8a5fbad681e47d3e65558f9bd3587e669a0c9",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/CLIENT_V2_HISTORISCH/PLANUNG/SKILLS/voice-stt-client-v2-umsetzen/references/KORREKTUR.md",
+      "sha256": "44ccdf6a4ade020b0388f665c853707531deec8fb080192f25f880a49d85d625",
+      "origin": "historischer Client-V2-ZIP-Stand (nicht automatisch Live)"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/IDEENNOTIZEN/Allgemeines_Workflows_ Branches_Entwurf.md",
+      "sha256": "df5b9c80080fb43850d46e965ce69d1bf1d9127b6e926700e71c9898d1c316cf",
+      "origin": "IDEENNOTIZEN"
+    },
+    {
+      "path": "01_ARBEITSEBENE/QUELLEN/IDEENNOTIZEN/Planungsphase_Entwurf.md",
+      "sha256": "0fdfe6bf47787f867847e76feb3662753ac017899ce93fc7908b09422b716db3",
+      "origin": "IDEENNOTIZEN"
+    }
+  ]
+}
