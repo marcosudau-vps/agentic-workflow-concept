@@ -1,6 +1,6 @@
 # Drei Ebenen und Dokumentautorität
 
-**Bearbeitungsstatus:** IN_BEARBEITUNG – Kernpräzisierung am 22.10.2026 gemeinsam bestätigt; formaler Themenabschluss noch offen.
+**Bearbeitungsstatus:** ABGESCHLOSSEN – die bestätigten Grundsätze und Präzisierungen bilden den Abschluss dieses Themas (22.10.2026).
 
 ## Relevante Konzepte und Umsetzung
 
@@ -31,7 +31,7 @@ Die Trennung von Arbeitsebene (Quellen und Entscheidungen), sachlicher allgemein
 - `T01-001`: Trennung Framework-Verfahrensautorität und projektbezogener Fachautorität der zentralen Planung.
 - `T01-002`: gemeinsamer Begriffsrahmen und standardisierte, rollen- und gategebundene Instrumente.
 
-Beide Präzisierungen sind inhaltlich bestätigt. Die weitere Detaillierung von Begriffen, Verbindlichkeitsklassen und individuellen Rollen erfolgt später in den Themen 02, 06 und 08. Damit ist noch keine fachliche Abschlussfreigabe für alle Aspekte dieser Themen erteilt.
+Beide Präzisierungen sind für Thema 01 bestätigt. Die eigenständige Detaillierung von Begriffen, Verbindlichkeitsklassen und individuellen Rollen erfolgt in den Themen 02, 06 und 08; deren fachliche Freigaben werden nicht vorweggenommen.
 
 ## Änderungen und Prüfung
 
@@ -39,4 +39,4 @@ Betroffene Konzept- und Anwendungsdateien sind oben verlinkt und in `06_ABLEITUN
 
 ## Nächste Aktion
 
-Thema 01 gemeinsam abschließen und erst nach entsprechender Bestätigung als `ABGESCHLOSSEN` markieren. Anschließend Thema 02: Begriffe und Verbindlichkeitsarten.
+Thema 01 ist abgeschlossen. Nächster Schritt: Thema 02 – Begriffe und Verbindlichkeitsarten.

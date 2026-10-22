@@ -4,8 +4,8 @@ Die Themen werden nacheinander als **vorläufig ausformulierter Grundstand** bes
 
 | Nr. | Thema | Arbeitsakte | Stand |
 | --- | --- | --- | --- |
-| 01 | Drei Ebenen und Dokumentautorität | [Thema](THEMEN/01_ebenen_dokumentautoritaet.md) | IN_BEARBEITUNG |
-| 02 | Begriffe und Verbindlichkeitsarten | [Thema](THEMEN/02_begriffe_verbindlichkeit.md) | ZU_PRUEFEN |
+| 01 | Drei Ebenen und Dokumentautorität | [Thema](THEMEN/01_ebenen_dokumentautoritaet.md) | ABGESCHLOSSEN |
+| 02 | Begriffe und Verbindlichkeitsarten | [Thema](THEMEN/02_begriffe_verbindlichkeit.md) | IN_BEARBEITUNG |
 | 03 | Intake, Zielbild und Istaufnahme | [Thema](THEMEN/03_intake_und_zielbild.md) | ZU_PRUEFEN |
 | 04 | Architektur, Schnittstellen, Datenmodelle, Systemgrenzen | [Thema](THEMEN/04_architektur_vertraege.md) | ZU_PRUEFEN |
 | 05 | Hardening, unabhängige Planprüfung und Findingdisposition | [Thema](THEMEN/05_planhaertung.md) | ZU_PRUEFEN |
