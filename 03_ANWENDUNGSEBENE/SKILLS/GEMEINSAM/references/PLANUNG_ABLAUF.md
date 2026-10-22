@@ -3,7 +3,7 @@
 ## Plannerstart
 
 - Ursprünglichen Auftrag und Planungsrechte sichern, Istzustand (Repo/Code/Vertrag/Betrieb) dokumentieren.
-- Zielbild, Nichtziele und Akzeptanz nachfragen oder aus belegten Quellen auflösen; nicht erraten.
+- Zielbild, Nichtziele und Akzeptanz gemeinsam mit dem menschlichen Auftraggeber erarbeiten; Unklarheiten nachfragen oder aus belegten Quellen auflösen, nicht erraten. Die zentrale Planung ist ein Team; der Planner integriert die fachlichen Entscheidungen im autorisierten Umfang.
 - Architektur-/Kontraktgrundlagen gemeinsam aus einer Sicht integrieren; ggf. Architect mit gezieltem Auftrag und nur relevanter Baseline einsetzen.
 - Requirements stabil ID-basiert in JSON mit Test-/Owner-/Vertragsanker pflegen; Paketmanifest und Abhängigkeiten ableiten.
 - Detaillierte Test-/Integrationsstrategie, Plattformmatrix, Crossrepo-Bindungen und Übergaben vorbereiten.

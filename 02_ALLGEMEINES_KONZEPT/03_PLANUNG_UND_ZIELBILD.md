@@ -4,6 +4,12 @@
 
 Die Planung ist ein vollständiger vorgelagerter Arbeitsprozess. Sie beginnt mit dem Auftragsverständnis und endet mit einem intern kohärenten, nachweisgestützt überprüften Plan, der die Ausführung ohne fortlaufende ad-hoc-Grundsatzplanung ermöglicht. Die Gesamtplanung wird durch den **Planner** integriert; Architekturanalysen und Spezialprüfungen werden gezielt eingebunden, ohne eine zweite konkurrierende Planautorität zu schaffen.
 
+## Inhaltliche Zuständigkeit der zentralen Planung
+
+Menschlicher Auftraggeber und Planner-Agent arbeiten in der zentralen Planung **als Team** zusammen. Sie gestalten das Projekt aus dessen tatsächlichen Bedürfnissen heraus und legen die projektbezogenen Anforderungen, Architektur, Verträge, Feature- und Paketgrenzen sowie Qualitätsmaßstäbe fest. Der Mensch verantwortet dabei die übergeordneten Entscheidungen und reservierten Freigaben; der Planner koordiniert und integriert die detaillierte Planung im erteilten Umfang.
+
+Das Framework liefert dafür Begriffe, Rollenverträge, strukturierte Planungs- und Auftragsformate sowie qualifizierbare Übergänge, nicht aber produktspezifische Lösungen. Beiträge weiterer Agenten werden vom Planner in Abstimmung mit dem Auftraggeber bewertet. Nach Planfreeze werden Projektverträge nicht stillschweigend geändert.
+
 ## Eingang und Istaufnahme
 
 Vor der Lösungsfestlegung erfasst der Planner den tatsächlichen Repository-/Produkt-/Infrastrukturstand, offene Änderungen, Zielsysteme, Nutzerziele, vorhandene Verträge, Risiken, Abhängigkeiten, Versions-/Kompatibilitätsgrenzen und Auswirkungen auf andere Repositories. Quellen bekommen Herkunft, beobachteten SHA und Gültigkeitsumfang. Vermutete Tatsachen werden nicht als beobachtete Vertragsrealität dargestellt.

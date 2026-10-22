@@ -2,6 +2,12 @@
 
 Dieser Bereich enthält **projektneutrale** Rollenverträge, konkrete Lesepfade, Arbeitsschemata, Vorlagen und lokal ausführbare Hilfswerkzeuge. Er ist aus dem allgemeinen Konzept abgeleitet und besitzt **keine konkurrierende fachliche Autorität**.
 
+## Standardisierte Instrumente
+
+Die Rollen erhalten verbindlich definierte Begriffe, kontextspezifische Skills und Lesepfade sowie ein gemeinsames Instrumentarium: Auftrags- und Promptformate, Verbindlichkeitskennzeichnungen, Requirements-/Traceability-Formate, Plan- und Aktenvorlagen, Statusdateien, Schemas und Prüfer. So kann die zentrale Planung unterschiedliche Projekte fachlich frei gestalten, während Formate, Verantwortung und Übergaben nachvollziehbar bleiben.
+
+Die Verfügbarkeit eines Instruments bedeutet nicht, dass es in jedem Lauf vollständig zu verwenden ist. Erst der konkrete Rollen-, Aufgaben- und Übergangsvertrag bestimmt, welche Instrumente erforderlich sind. Vorlagen und Skripte verleihen weder eigenständige fachliche Autorität noch automatisch Git- oder Freigaberechte.
+
 ## Inhalte
 
 - [SKILLS](SKILLS/README.md): Dispatcher, Planner, Architect, Planhardener, Planreviewer, Implementer, Reviewer, Canonicalizer, Featurequalifier, Releasequalifier

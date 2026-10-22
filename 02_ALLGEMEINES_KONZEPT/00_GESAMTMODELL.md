@@ -6,6 +6,14 @@ Das Verfahren organisiert komplexe Softwareentwicklung mit spezialisierten KI-Ag
 
 Der Prozess setzt einen vollständigen, strukturell abgesicherten Plan **vor** Beginn abhängiger Produktimplementierung voraus. Änderungen während der Ausführung werden nicht verboten, sondern an eine explizite Änderungsentscheidung und Folgenanalyse gebunden.
 
+## Verfahrensrahmen und Projektinhalt
+
+Das System definiert, **wie** die gesamte Projektentwicklung von Zielklärung und Planung bis Umsetzung, Abnahme und Veröffentlichung organisiert und abgesichert wird. Es gibt den fachlichen Inhalt eines konkreten Projekts nicht vor. Stattdessen definiert es verbindliche Begriffe, Zuständigkeiten, Zustände, Übergänge, Nachweisregeln und standardisierte Instrumente.
+
+Die **zentrale Planung** ist die Zusammenarbeit von menschlichem Auftraggeber und Planner-Agent. Dieses Team gestaltet das konkrete Vorhaben nach seinen Erfordernissen: Zielbild, Anforderungen, Architektur, Schnittstellenverträge, Features, Arbeitspakete und Qualifikation. Der Planner führt den konsistenten Gesamtplan im beauftragten Umfang; der Mensch verantwortet wesentliche Richtungsentscheidungen und ausdrücklich reservierte Freigaben. Weitere Rollen liefern Fachbeiträge oder unabhängige Befunde, ohne eine konkurrierende Gesamtplanautorität zu begründen.
+
+Das Framework stellt Instrumente wie Rollen-Skills und Lesepfade, Verbindlichkeitskennzeichnungen in Aufträgen, Traceability-Formate, Vorlagen, Schemas und Prüfskripte bereit. Ihr Einsatz ist je nach Rolle und Übergang verbindlich oder bedarfsorientiert. Die freigegebene Projektplanung befüllt die vorgegebenen Formate mit **projektspezifischen** Entscheidungen; nach Planfreeze gelten dafür die geregelten Änderungsbedingungen.
+
 ## Strukturelle Einheiten
 
 1. **Projekt:** Repository- oder Repositoryverbund mit Zielbild, Verantwortlichkeit und gemeinsamen Regeln.

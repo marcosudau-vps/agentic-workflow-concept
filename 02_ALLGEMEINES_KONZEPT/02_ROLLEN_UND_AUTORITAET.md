@@ -4,6 +4,12 @@
 
 Eine Rolle ist ein Vertrag aus Ziel, erlaubten Entscheidungen, Leseumfang, erlaubten Mutationen, Abschlusskriterien und Übergabe. Ein Modell oder ein Personenname ist keine Rolle. Eine Session kann eine Rolle erfüllen; unabhängige Prüfrollen benötigen eine von der geprüften Arbeit fachlich getrennte Session. Derselbe GitHub-Account ersetzt keine personell unabhängige formale GitHub-Approval.
 
+## Fachliche Planung und Verfahrensautorität
+
+Das Framework bestimmt die **Verfahrensautorität**: Wer im Entwicklungsprozess welche Entscheidung treffen, prüfen, dokumentieren und freigeben darf. Die **Projektfachautorität** liegt bei der zentralen Planung, in der Mensch und Planner-Agent als Team den Projektinhalt bestimmen. Der Planner integriert und pflegt die Ausarbeitung im autorisierten Umfang; der Auftraggeber behält übergeordnete Entscheidungen und reservierte Freigaben. Architect und Hardener unterstützen beziehungsweise prüfen, ohne selbst die fachliche Gesamtplanung zu ersetzen.
+
+Eine Rolle erhält standardisierte Instrumente und gezielte Lesepfade. Daraus folgt keine automatische Pflicht, jedes Instrument immer zu benutzen. Die konkrete Verwendung ergibt sich aus Rollenvertrag, Auftrag und dem jeweiligen Gate.
+
 ## Rollenverträge
 
 | Rolle | Verantwortet | Darf nicht eigenständig |
